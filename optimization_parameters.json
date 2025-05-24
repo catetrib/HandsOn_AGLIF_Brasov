@@ -1,7 +1,7 @@
 {
 	"genetic_optimization_parameters": {
-		"n_iter":2, 
-		"pop_size": 5, 
+		"n_iter":20, 
+		"pop_size": 50, 
 		"mutation_probability": 0.3, 
 		"elit_ratio":0.02, 
 		"crossover_probability":0.3,
@@ -27,18 +27,17 @@
 			"max":100000
 			}
 	},
-
-
-
+	
+	
 	"Idep0_search_parameters":{
 		"Idep0_ini":3,
 		"Idep0_ini_range":10,
 		"n_iter":20,
-		"tolerance": 0.005
+		"tolerance": 0.05
 		
 	},
 	
-	"n_test_monod": 5,
+	"n_test_monod": 100,
 	
 	"monod_parameters_bounds":{
 		"a":{
@@ -50,8 +49,8 @@
 			"max":10
 			},
 		"c":{
-			"min":-2000,
-			"max":2000
+			"min":-4000,
+			"max":4000
 			},
 		"alpha":{
 			"min":0,
